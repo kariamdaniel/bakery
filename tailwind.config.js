@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: "class",
   content: ["./pages/*.{html,js}", "./index.html", "./js/*.js"],
   theme: {
     extend: {
@@ -48,10 +49,12 @@ module.exports = {
         // Background Colors
         background: "#FEFCF8", // clean-workspace
         surface: "#F5F1EB", // subtle-elevation
+        "dark-background": "#2C1810",
         // Text Colors
         text: {
           primary: "#2C1810", // chocolate-darkness
           secondary: "#6B4E3D", // cocoa-lightness
+          "dark-primary": "#FEFCF8",
         },
         // Status Colors
         success: {
